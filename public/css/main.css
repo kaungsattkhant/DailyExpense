@@ -1,0 +1,124 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: whitesmoke;
+}
+.content{
+    width:83%;
+    /*min-width: 100vh;*/
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+
+}
+.main-container{
+    /*display: flex;*/
+    /*min-height: 100%;*/
+    /*!*max-height: auto;*!*/
+
+}
+.sub-content{
+    /*float: right;*/
+    padding-bottom: 20px;
+    /*clear: both;*/
+    /*position: absolute;*/
+}
+.side_bar{
+
+    position: relative;
+    width: 15%;
+    height: 100%;
+    background-color: #352828;
+    /*margin: 0 !important;*/
+    /*padding:0px;*/
+    float: left;
+}
+.side-bar-body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+.side-bar-body li{
+    list-style: none;
+    color:white;
+    padding:20px 0 15px 10px;
+    /*padding-right: 30px;*/
+    /*width:100%;*/
+    /*padding-bottom: 30px;*/
+    /*height: 0px;*/
+    /*background-color:gray ;*/
+}
+.side-bar-body li:hover{
+    color: gray;
+    background-color: gray;
+    color:white;
+
+}
+.side-bar-body a{
+    text-decoration: none;
+    color:white;
+    /*margin:7px;*/
+
+    /*align-content: center;*/
+    /*padding-right: 20px;*/
+    /*float: left;*/
+}
+.cs-btn{
+    background-color: darkslategray;
+    color:white;
+    border-radius:2px;
+}
+.cs-btn:hover{
+    background-color: darkslategray;
+}
+input:focus{
+    outline: none;
+}
+.left-div{
+    padding:40px 0 40px 100px;
+}
+.panel-footer{
+    padding-left:63px;
+    position:absolute;
+    z-index: 1;
+}
+.list-group{
+    padding-left:40px;
+    margin-top: 0;
+}
+.list-group-item{
+    /*height: px;*/
+    background-color: whitesmoke;
+    padding:3px 0 0 3px;
+}
+.list-group-item:hover{
+    background-color: gray;
+}
+li i {
+    padding-right:10px;
+}
+.daily_div{
+    padding:100px 200px ;
+}
+
+/**************************login css**********************/
+.login_body{
+    background-color: navajowhite;
+    color:antiquewhite;
+}
+.login_div{
+    background-color:midnightblue ;
+    width:380px;
+    height:350px;
+    margin:160px 0 0 540px;
+    alignment: center;
+    border-radius: 10px;
+}
+.login_form{
+    margin:60px 0 0 80px;
+}
+.login ::placeholder {
+    padding-left:60px;
+}
+
